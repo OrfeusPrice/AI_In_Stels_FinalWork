@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         _transform = GetComponent<Transform>();
         _mainCamera = Camera.main;
         _mainCamera.transform.SetParent(this._transform);
-        _mainCamera.transform.localPosition = new Vector3(0, 3, -3);
+        _mainCamera.transform.localPosition = new Vector3(0, 2, -2);
     }
 
     public void Update()

@@ -82,9 +82,11 @@ public class Enemy : MonoBehaviour
 
     private bool IsInView()
     {
-        float realAngle = Vector3.Angle(_enemyEye.forward, _target.position - _enemyEye.position);
+        Vector3 target_v = _target.position - _enemyEye.position;
+
+        float realAngle = Vector3.Angle(_enemyEye.forward, target_v);
         RaycastHit hit;
-        if (Physics.Raycast(_enemyEye.transform.position, _target.position - _enemyEye.position, out hit,
+        if (Physics.Raycast(_enemyEye.transform.position, target_v, out hit,
             _viewDistance))
         {
             if (realAngle < _viewAngle / 2f &&
