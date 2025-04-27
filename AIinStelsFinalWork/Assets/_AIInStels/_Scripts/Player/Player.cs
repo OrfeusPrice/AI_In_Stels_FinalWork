@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     private Rigidbody _rigidbody;
     private Transform _transform;
     private Camera _mainCamera;
+    private CameraController _camController;
     private float _rotationSpeed;
 
     private void Start()
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
         _mainCamera = Camera.main;
         _mainCamera.transform.SetParent(this._transform);
         _mainCamera.transform.localPosition = new Vector3(0, 2, -2);
+        _camController = _mainCamera.gameObject.GetComponent<CameraController>();
     }
 
     public void Update()
@@ -33,5 +35,13 @@ public class Player : MonoBehaviour
         Vector3 moveDirection = transform.TransformDirection(input) * _speed;
         moveDirection.y = _rigidbody.linearVelocity.y;
         _rigidbody.linearVelocity = moveDirection;
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            if (_camController.TryGetEnemy(out Enemy enemy))
+            {
+                enemy.SetIdle();
+            }
+        }
     }
 }

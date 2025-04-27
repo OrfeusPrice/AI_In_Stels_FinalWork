@@ -9,18 +9,18 @@ using UnityEngine.AI;
 using UnityEngine.UI;
 using Zenject;
 
-public class Enemy : MonoBehaviour
+public partial class Enemy : MonoBehaviour
 {
     [SerializeField] private FSM _fsm;
 
+    [SerializeField] private float _remainingDistance = 3f;
+    [SerializeField] private Light _light;
+    [SerializeField] private NavMeshAgent _agent;
+    [SerializeField] private Transform _viewSensorTransform;
+    [SerializeField] private ViewSensor _viewSensor;
 
-    [SerializeField] [Range(0, 360)] float _viewAngle = 90f;
-    [SerializeField] float _viewDistance = 5f;
-    [SerializeField] float _remainingDistance = 3f;
-    [SerializeField] Transform _enemyEye;
-    [SerializeField] Transform _target;
-    [SerializeField] Light _light;
-    [SerializeField] NavMeshAgent _agent;
+    [SerializeField] private SphereCollider _trigger;
+
 
     private ReactiveProperty<bool> _isTargetDetected;
     private Observable<bool> _observableDetection => _isTargetDetected;
@@ -41,7 +41,7 @@ public class Enemy : MonoBehaviour
     [Inject]
     public void Construct(Player player)
     {
-        _target = player.transform;
+        _viewSensor = new ViewSensor(player.transform, _viewSensorTransform, 90, 5);
     }
 
     private void OnDisable()
@@ -55,12 +55,12 @@ public class Enemy : MonoBehaviour
         _isTargetDetected = new ReactiveProperty<bool>(false);
         _compositeDisposable = new CompositeDisposable();
 
-        _observableDetection.Where(td => !td).Subscribe(_ => _fsm.SetState<Patrol>());
-        _observableDetection.Where(td => td).Subscribe(_ => _fsm.SetState<Chase>());
+        _observableDetection.Where(td => !td).Subscribe(_ => _fsm.SetState<Patrol>()).AddTo(_compositeDisposable);
+        _observableDetection.Where(td => td).Subscribe(_ => _fsm.SetState<Chase>()).AddTo(_compositeDisposable);
 
         _fsm.AddState(new Idle(_fsm));
         _fsm.AddState(new Patrol(_fsm, _agent, _remainingDistance, this));
-        _fsm.AddState(new Chase(_fsm, _agent, _target, this));
+        _fsm.AddState(new Chase(_fsm, _agent, _viewSensor.Target, this));
 
         _fsm.SetState<Idle>();
     }
@@ -69,50 +69,30 @@ public class Enemy : MonoBehaviour
     {
         _fsm.Update();
 
-        float distanceToPlayer = Vector3.Distance(_target.transform.position, _agent.transform.position);
-        if (IsInView() && !TargetDetected)
+        float distanceToPlayer = Vector3.Distance(_viewSensor.Target.transform.position, _agent.transform.position);
+        if (_viewSensor.IsInView() && !TargetDetected ||
+            Physics.OverlapSphere(this.transform.position + Vector3.up, 2, LayerMask.GetMask("Player")).Length == 1)
         {
             TargetDetected = true;
             Chasing().Forget();
         }
 
-        DrawViewState();
+        _viewSensor.DrawViewState();
     }
 
-
-    private bool IsInView()
+    public void SetIdle()
     {
-        Vector3 target_v = _target.position - _enemyEye.position;
-
-        float realAngle = Vector3.Angle(_enemyEye.forward, target_v);
-        RaycastHit hit;
-        if (Physics.Raycast(_enemyEye.transform.position, target_v, out hit,
-            _viewDistance))
-        {
-            if (realAngle < _viewAngle / 2f &&
-                Vector3.Distance(_enemyEye.position, _target.position) <= _viewDistance &&
-                hit.transform == _target.transform)
-                return true;
-        }
-
-        return false;
+        Light.color = Color.magenta;
+        _fsm.SetState<Idle>();
     }
 
-    private void DrawViewState()
-    {
-        Vector3 left = _enemyEye.position +
-                       Quaternion.Euler(new Vector3(0, _viewAngle / 2f, 0)) * (_enemyEye.forward * _viewDistance);
-        Vector3 right = _enemyEye.position +
-                        Quaternion.Euler(-new Vector3(0, _viewAngle / 2f, 0)) * (_enemyEye.forward * _viewDistance);
-        Debug.DrawLine(_enemyEye.position, left, Color.yellow);
-        Debug.DrawLine(_enemyEye.position, right, Color.yellow);
-    }
 
     private async UniTask Chasing()
     {
         while (true)
         {
-            if (!IsInView())
+            if (!_viewSensor.IsInView() ||
+                Physics.OverlapSphere(this.transform.position, 2, LayerMask.GetMask("Player")).Length == 1)
             {
                 await UniTask.WaitForSeconds(0.5f);
                 TargetDetected = false;
@@ -125,6 +105,8 @@ public class Enemy : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawSphere(_agent.destination, 1);
+        Gizmos.DrawSphere(_agent.destination, 0.5f);
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(this.transform.position + Vector3.up, 2);
     }
 }

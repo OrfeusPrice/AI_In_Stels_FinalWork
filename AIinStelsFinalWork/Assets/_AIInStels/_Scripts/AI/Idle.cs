@@ -20,7 +20,7 @@ public class Idle : State
     {
         Debug.Log("Idle [UPDATE]");
 
-        if (Input.GetKeyDown(KeyCode.Mouse0)) 
+        if (Input.GetKeyDown(KeyCode.Q)) 
         {
             _fsm.SetState<Patrol>();
         }

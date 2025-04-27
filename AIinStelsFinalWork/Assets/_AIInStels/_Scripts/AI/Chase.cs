@@ -42,9 +42,5 @@ public class Chase : State
         Debug.Log("Chase [UPDATE]");
 
         agent.destination = target.position;
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            _fsm.SetState<Idle>();
-        }
     }
 }
