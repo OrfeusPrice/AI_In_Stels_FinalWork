@@ -26,6 +26,8 @@ public class CameraController : MonoBehaviour
     private void Start()
     {
         _hit = new RaycastHit();
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
@@ -33,7 +35,8 @@ public class CameraController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             _img.gameObject.SetActive(true);
-            transform.localPosition = new Vector3(0.6f, 0.4f, -0.6f);
+            //transform.localPosition = new Vector3(0.6f, 0.4f, -0.6f);
+            transform.localPosition = new Vector3(0, 0.3f, 0);
             transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
 

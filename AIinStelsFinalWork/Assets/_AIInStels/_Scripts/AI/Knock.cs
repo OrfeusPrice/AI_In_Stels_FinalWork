@@ -1,23 +1,34 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Knock : State
 {
-	public Knock(FSM fsm) : base(fsm)
-	{
-	}
+    NavMeshAgent _agent;
+    Enemy _enemy;
 
-	public override void Enter()
-	{
-		Debug.Log("Knock [ENTER]");
-	}
+    public Knock(FSM fsm, NavMeshAgent agent, Enemy enemy) : base(fsm)
+    {
+        _agent = agent;
+        _enemy = enemy;
+    }
 
-	public override void Exit()
-	{
-		Debug.Log("Knock [EXIT]");
-	}
+    public override void Enter()
+    {
+        Debug.Log("Knock [ENTER]");
 
-	public override void Update()
-	{
-		Debug.Log("Knock [UPDATE]");
-	}
+        _agent.destination = _agent.transform.position;
+        _agent.gameObject.layer = LayerMask.NameToLayer("Knocked");
+        
+        _enemy.Light.color = new Color(1, 0.5f, 0.3f);
+    }
+
+    public override void Exit()
+    {
+        Debug.Log("Knock [EXIT]");
+    }
+
+    public override void Update()
+    {
+        Debug.Log("Knock [UPDATE]");
+    }
 }

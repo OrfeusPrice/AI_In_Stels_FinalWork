@@ -1,4 +1,6 @@
 using System;
+using System.Linq;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 [Serializable]
@@ -7,7 +9,7 @@ public class ViewSensor
     [SerializeField] private Transform _target;
     [SerializeField] private Transform _enemyEye;
     [SerializeField] [Range(0, 360)] private float _viewAngle = 90f;
-    [SerializeField] private float _viewDistance = 5f;
+    [SerializeField] private float _viewDistance = 15f;
 
     public Transform Target
     {
@@ -23,20 +25,49 @@ public class ViewSensor
         _viewDistance = viewDistance;
     }
 
-
-    public bool IsInView()
+    public async UniTask SensorPowerUp()
     {
-        Vector3 target_v = _target.position - _enemyEye.position;
+        float oldViewAngle = _viewAngle;
+        float oldViewDistance = _viewDistance;
+        _viewAngle = 120;
+        _viewDistance = 25;
+        await UniTask.WaitForSeconds(15);
+        _viewAngle = oldViewAngle;
+        _viewDistance = oldViewDistance;
+    }
 
-        float realAngle = Vector3.Angle(_enemyEye.forward, target_v);
-        RaycastHit hit;
-        if (Physics.Raycast(_enemyEye.transform.position, target_v, out hit,
-            _viewDistance))
+    public bool IsKnockedEnemyInView(out Enemy enemy)
+    {
+        enemy = null;
+
+        Collider[] objsInSphere =
+            Physics.OverlapSphere(_enemyEye.transform.position + Vector3.up, 10, LayerMask.GetMask("Knocked"));
+
+        if (objsInSphere.Length > 0)
         {
-            if (realAngle < _viewAngle / 2f &&
-                Vector3.Distance(_enemyEye.position, _target.position) <= _viewDistance &&
-                hit.transform == _target.transform)
-                return true;
+            objsInSphere.First().TryGetComponent<Enemy>(out enemy);
+            return true;
+        }
+
+        return false;
+    }
+
+    public bool IsPlayerInView()
+    {
+        if (_target != null)
+        {
+            Vector3 target_v = _target.position - _enemyEye.position;
+
+            float realAngle = Vector3.Angle(_enemyEye.forward, target_v);
+            RaycastHit hit;
+            if (Physics.Raycast(_enemyEye.transform.position, target_v, out hit,
+                _viewDistance))
+            {
+                if (realAngle < _viewAngle / 2f &&
+                    Vector3.Distance(_enemyEye.position, _target.position) <= _viewDistance &&
+                    hit.transform == _target.transform)
+                    return true;
+            }
         }
 
         return false;

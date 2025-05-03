@@ -33,8 +33,8 @@ public class FSM
         AddState(new Idle(this));
         AddState(new Patrol(this, agent, remainingDistance, enemy));
         AddState(new Chase(this, agent, viewSensor.Target, enemy));
-        AddState(new Knock(this));
-        AddState(new Check(this));
+        AddState(new Knock(this, agent, enemy));
+        AddState(new Check(this, agent, enemy));
 
         SetState<Idle>();
     }

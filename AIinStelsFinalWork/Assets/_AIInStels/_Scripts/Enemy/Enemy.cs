@@ -8,20 +8,21 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 using Zenject;
+using Unit = R3.Unit;
 
 public partial class Enemy : MonoBehaviour
 {
     [SerializeField] private FSM _fsm;
     private EnemyAnimator _enemyAnimator;
 
+    [SerializeField] private GameObject _particles;
+
     [SerializeField] private float _remainingDistance = 3f;
     [SerializeField] private Light _light;
     [SerializeField] private NavMeshAgent _agent;
     [SerializeField] private Transform _viewSensorTransform;
     [SerializeField] private ViewSensor _viewSensor;
-
-    [SerializeField] private SphereCollider _trigger;
-
+    private Enemy _checkableEnemy;
 
     private ReactiveProperty<bool> _isTargetDetected;
     private Observable<bool> _observableDetection => _isTargetDetected;
@@ -42,7 +43,7 @@ public partial class Enemy : MonoBehaviour
     [Inject]
     public void Construct(Player player)
     {
-        _viewSensor = new ViewSensor(player.transform, _viewSensorTransform, 90, 5);
+        _viewSensor = new ViewSensor(player.transform, _viewSensorTransform, 90, 10);
     }
 
     private void OnDisable()
@@ -59,7 +60,8 @@ public partial class Enemy : MonoBehaviour
         _isTargetDetected = new ReactiveProperty<bool>(false);
         _compositeDisposable = new CompositeDisposable();
 
-        _observableDetection.Where(td => !td).Subscribe(_ => _fsm.SetState<Patrol>()).AddTo(_compositeDisposable);
+        _observableDetection.Where(td => !td).Skip(1).Subscribe(_ => _fsm.SetState<Patrol>())
+            .AddTo(_compositeDisposable);
         _observableDetection.Where(td => td).Subscribe(_ => _fsm.SetState<Chase>()).AddTo(_compositeDisposable);
 
         _fsm._observableState.Subscribe(x => _enemyAnimator.SetAnimation(x)).AddTo(_fsm._compositeDisposable);
@@ -69,39 +71,76 @@ public partial class Enemy : MonoBehaviour
     {
         _fsm.Update();
 
-        float distanceToPlayer = Vector3.Distance(_viewSensor.Target.transform.position, _agent.transform.position);
-        if (!(_fsm.CurrentState is Knock || _fsm.CurrentState is Idle))
-            if (_viewSensor.IsInView() && !TargetDetected ||
-                Physics.OverlapSphere(this.transform.position + Vector3.up, 2, LayerMask.GetMask("Player")).Length == 1)
-            {
-                TargetDetected = true;
-                CheckOnChasing().Forget();
-            }
-
         _viewSensor.DrawViewState();
+    }
+
+    public async UniTask Disable()
+    {
+        _particles.SetActive(true);
+        await UniTask.WaitForSeconds(2f);
+        this.gameObject.SetActive(false);
+    }
+
+    public void TryDetectKnockedEnemy()
+    {
+        if (_viewSensor.IsKnockedEnemyInView(out _checkableEnemy))
+        {
+            if (_agent.destination != _checkableEnemy.transform.position)
+                _agent.destination = _checkableEnemy.transform.position;
+            else if (_agent.remainingDistance < 3)
+            {
+                SetCheck(_checkableEnemy);
+            }
+        }
+    }
+
+    public void TryDetectPlayer()
+    {
+        if (_viewSensor.IsPlayerInView() && !TargetDetected ||
+            Physics.OverlapSphere(this.transform.position + Vector3.up, 2, LayerMask.GetMask("Player")).Length == 1)
+        {
+            TargetDetected = true;
+        }
+    }
+
+    public void SetCheck(Enemy enemy)
+    {
+        _fsm.SetState<Check>();
+        if (_fsm.CurrentState is Check)
+        {
+            (_fsm.CurrentState as Check).SetCheckableEnemy(enemy);
+            _viewSensor.SensorPowerUp();
+        }
+
+        _checkableEnemy = null;
     }
 
     public void SetKnock()
     {
-        Light.color = new Color(1, 0.5f, 0.3f);
         _fsm.SetState<Knock>();
     }
 
 
-    private async UniTask CheckOnChasing()
+    public async UniTask CheckOnChasing()
     {
-        while (_viewSensor != null)
+        while (_fsm.CurrentState is Chase)
         {
-            if (!_viewSensor.IsInView() ||
-                Physics.OverlapSphere(this.transform.position, 2, LayerMask.GetMask("Player")).Length == 1)
+            if (!IsDetectPlayerWhileChase())
             {
                 await UniTask.WaitForSeconds(0.5f);
                 TargetDetected = false;
             }
 
             await UniTask.WaitForSeconds(0.5f);
-            break;
         }
+    }
+
+    public bool IsDetectPlayerWhileChase()
+    {
+        if (_viewSensor != null && this != null)
+            return _viewSensor.IsPlayerInView() ||
+                   Physics.OverlapSphere(this.transform.position, 2, LayerMask.GetMask("Player")).Length == 1;
+        return false;
     }
 
     private void OnDrawGizmos()

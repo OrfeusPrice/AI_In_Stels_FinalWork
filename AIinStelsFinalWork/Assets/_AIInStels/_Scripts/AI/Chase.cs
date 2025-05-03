@@ -6,30 +6,32 @@ using UnityEngine.AI;
 
 public class Chase : State
 {
-    Transform target;
-    NavMeshAgent agent;
-    Enemy enemy;
+    Transform _target;
+    NavMeshAgent _agent;
+    Enemy _enemy;
 
     public Chase(FSM fsm, NavMeshAgent agent, Transform target, Enemy enemy) : base(fsm)
     {
-        this.agent = agent;
-        this.target = target;
-        this.enemy = enemy;
+        this._agent = agent;
+        this._target = target;
+        this._enemy = enemy;
     }
 
     public Vector3 GetAgentDestination()
     {
-        return agent.destination;
+        return _agent.destination;
     }
 
     public override void Enter()
     {
         Debug.Log("Chase [ENTER]");
-        agent.destination = target.position;
-        agent.speed = 10;
-        agent.angularSpeed = 360;
-        enemy.Light.GetComponent<Light>().color = Color.red;
-        enemy.Light.GetComponent<Light>().intensity = 20f;
+        _agent.destination = _target.position;
+        _agent.speed = 10;
+        _agent.angularSpeed = 360;
+        _enemy.Light.GetComponent<Light>().color = Color.red;
+        _enemy.Light.GetComponent<Light>().intensity = 20f;
+        
+        _enemy.CheckOnChasing().Forget();
     }
 
     public override void Exit()
@@ -41,6 +43,7 @@ public class Chase : State
     {
         Debug.Log("Chase [UPDATE]");
 
-        agent.destination = target.position;
+        if (_target != null)
+        _agent.destination = _target.position;
     }
 }

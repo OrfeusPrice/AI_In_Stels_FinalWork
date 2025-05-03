@@ -36,113 +36,7 @@
             </e>
             <e p="Player" t="Include">
               <e p="Player.cs" t="Include" />
-              <e p="PlayerController.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="FastScriptReload" t="Include">
-          <e p="Plugins" t="Include">
-            <e p="Harmony" t="Include">
-              <e p="HarmonyLicense.txt" t="Include" />
-              <e p="net48" t="Include">
-                <e p="0Harmony.xml" t="Include" />
-              </e>
-            </e>
-            <e p="ImmersiveVrToolsCommon" t="Include">
-              <e p="ImmersiveVRToolsCommonLicense.txt" t="Include" />
-            </e>
-            <e p="Roslyn" t="Include">
-              <e p="2019+" t="Include">
-                <e p="RoslynLicense.txt" t="Include" />
-              </e>
-              <e p="2021+" t="Include">
-                <e p="RoslynLicense.txt" t="Include" />
-                <e p="System.Reflection.Metadata.xml" t="Include" />
-                <e p="System.Runtime.CompilerServices.Unsafe.xml" t="Include" />
-              </e>
-              <e p="Microsoft.CSharp.dll.IMPORTANT.txt.txt" t="Include" />
-            </e>
-          </e>
-          <e p="Samples" t="Include">
-            <e p="Basic" t="Include">
-              <e p="Point" t="Include">
-                <e p="Point Surface.shader" t="Include" />
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="FunctionLibrary.cs" t="Include" />
-                <e p="Graph.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Editor" t="Include">
-              <e p="AssemblyPostProcess" t="Include">
-                <e p="AddInternalsVisibleToForAllUserAssembliesPostProcess.cs" t="Include" />
-              </e>
-              <e p="Compilation" t="Include">
-                <e p="CodeRewriting" t="Include">
-                  <e p="BuilderPatternFunctionsRewriter.cs" t="Include" />
-                  <e p="ConstructorRewriter.cs" t="Include" />
-                  <e p="CreateNewFieldInitMethodRewriter.cs" t="Include" />
-                  <e p="ExtensionMethodsCallingOtherExtensionMethodsInSameFileRewriter.cs" t="Include" />
-                  <e p="FastScriptReloadCodeRewriterBase.cs" t="Include" />
-                  <e p="FieldsWalker.cs" t="Include" />
-                  <e p="HotReloadCompliantRewriter.cs" t="Include" />
-                  <e p="ManualUserDefinedScriptOverridesRewriter.cs" t="Include" />
-                  <e p="NewFieldDeclaration.cs" t="Include" />
-                  <e p="NewFieldsRewriter.cs" t="Include" />
-                  <e p="Partials" t="Include">
-                    <e p="PartialClassFinder.cs" t="Include" />
-                    <e p="PartialTreeProcessor.cs" t="Include" />
-                    <e p="PartialTypeCombiner.cs" t="Include" />
-                    <e p="SyntaxTreeHelpers.cs" t="Include" />
-                    <e p="SyntaxTreeMergePartialsExtensions.cs" t="Include" />
-                  </e>
-                  <e p="RecordRewriter.cs" t="Include" />
-                  <e p="RedundantTypeNameQualifierRewriter.cs" t="Include" />
-                  <e p="RoslynUtils.cs" t="Include" />
-                  <e p="ThisAssignmentRewriter.cs" t="Include" />
-                  <e p="ThisCallRewriter.cs" t="Include" />
-                  <e p="ThisRewriterBase.cs" t="Include" />
-                </e>
-                <e p="DotnetExeCompilator.cs" t="Include" />
-                <e p="DynamicAssemblyCompiler.cs" t="Include" />
-                <e p="DynamicCompilationBase.cs" t="Include" />
-                <e p="McsExeDynamicCompilation.cs" t="Include" />
-                <e p="PatchMcsArgsGeneration.cs" t="Include" />
-                <e p="ScriptGenerationOverrides" t="Include">
-                  <e p="ScriptGenerationOverridesManager.cs" t="Include" />
-                </e>
-              </e>
-              <e p="CustomFileWatcher.cs" t="Include" />
-              <e p="FastScriptReload.Editor.asmdef" t="Include" />
-              <e p="FastScriptReloadManager.cs" t="Include" />
-              <e p="FastScriptReloadWelcomeScreen.cs" t="Include" />
-              <e p="FileWatcherSetupEntry.cs" t="Include" />
-              <e p="GUI" t="Include">
-                <e p="ProjectWindowReloadStatusIndicatorDrawer.cs" t="Include" />
-              </e>
-              <e p="NewFields" t="Include">
-                <e p="NewFieldsRendererDefaultEditorPatch.cs" t="Include" />
-              </e>
-              <e p="WindowsFileSystemWatcher.cs" t="Include" />
-            </e>
-            <e p="Runtime" t="Include">
-              <e p="AssemblyChangesLoader.cs" t="Include" />
-              <e p="AssemblyChangesLoaderResolver.cs" t="Include" />
-              <e p="DetourCrashHandler.cs" t="Include" />
-              <e p="FastScriptReload.Runtime.asmdef" t="Include" />
-              <e p="LoggerScopedInitializer.cs" t="Include" />
-              <e p="ProjectTypeCache.cs" t="Include" />
-              <e p="TemporaryNewFieldValues.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Tests" t="Include">
-            <e p="Editor" t="Include">
-              <e p="FastScriptReload.Tests.Editor.asmdef" t="Include" />
-            </e>
-            <e p="Runtime" t="Include">
-              <e p="FastScriptReload.Tests.Runtime.asmdef" t="Include" />
+              <e p="PlayerAnimator.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -1342,10 +1236,6 @@
           </e>
         </e>
       </e>
-      <e p="FastScriptReload.Editor.csproj" t="IncludeRecursive" />
-      <e p="FastScriptReload.Runtime.csproj" t="IncludeRecursive" />
-      <e p="FastScriptReload.Tests.Editor.csproj" t="IncludeRecursive" />
-      <e p="FastScriptReload.Tests.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />

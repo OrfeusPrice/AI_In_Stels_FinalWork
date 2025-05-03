@@ -11,26 +11,26 @@ public class Patrol : State
     private Transform _transform;
 
     protected float distance;
-    NavMeshAgent agent;
-    Enemy enemy;
+    NavMeshAgent _agent;
+    Enemy _enemy;
 
     public Patrol(FSM fsm, NavMeshAgent agent, float d, Enemy enemy) : base(fsm)
     {
         _rand = new System.Random();
         _transform = agent.gameObject.transform;
 
-        this.agent = agent;
+        this._agent = agent;
         distance = d;
-        this.enemy = enemy;
+        this._enemy = enemy;
     }
 
     public override void Enter()
     {
         Debug.Log("Patrol [ENTER]");
-        agent.speed = 2;
-        agent.angularSpeed = 180;
-        enemy.Light.GetComponent<Light>().color = Color.yellow;
-        enemy.Light.GetComponent<Light>().intensity = 15f;
+        _agent.speed = 2;
+        _agent.angularSpeed = 180;
+        _enemy.Light.color = new Color(0.6f, 1.6f, 1.0f);
+        _enemy.Light.GetComponent<Light>().intensity = 15f;
     }
 
     public override void Exit()
@@ -42,7 +42,10 @@ public class Patrol : State
     {
         Debug.Log("Patrol [UPDATE]");
 
-        if (agent.remainingDistance <= distance)
+        _enemy.TryDetectPlayer();
+        _enemy.TryDetectKnockedEnemy();
+
+        if (_agent.remainingDistance <= distance)
         {
             SetDestination(_rand.Next(-9, 9), _rand.Next(-9, 9));
         }
@@ -55,6 +58,7 @@ public class Patrol : State
     /// <param name="z"></param>
     public void SetDestination(float x = 0, float z = 0)
     {
-        agent.destination = new Vector3(x, _transform.position.y, z);
+        if (_transform != null)
+            _agent.destination = new Vector3(x, _transform.position.y, z);
     }
 }

@@ -23,25 +23,248 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ea623a5-ab73-42f5-99cd-f187920bba98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Alpha_Body_MAT.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Alpha_Body_MAT.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Alpha_Joints_MAT.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Alpha_Joints_MAT.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Chase.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Chase.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Check.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Check.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/ENEMY.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/ENEMY.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Patrol.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Patrol.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Documentation/documentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Documentation/documentation.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Documentation/documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Documentation/documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Documentation/release-notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Documentation/release-notes.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony/HarmonyLicense.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony/HarmonyLicense.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony/net48.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony/net48/0Harmony.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony/net48/0Harmony.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony/net48/0Harmony.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Harmony/net48/0Harmony.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/ImmersiveVrToolsCommon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/ImmersiveVrToolsCommon/ImmersiveVRTools.Common.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/ImmersiveVrToolsCommon/ImmersiveVRTools.Common.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/ImmersiveVrToolsCommon/ImmersiveVRTools.Common.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/ImmersiveVrToolsCommon/ImmersiveVRTools.Common.Runtime.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/ImmersiveVrToolsCommon/ImmersiveVRToolsCommonLicense.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/ImmersiveVrToolsCommon/ImmersiveVRToolsCommonLicense.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/Microsoft.CodeAnalysis.CSharp.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/Microsoft.CodeAnalysis.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/RoslynLicense.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/RoslynLicense.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/System.Collections.Immutable.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/System.Reflection.Metadata.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2019+/System.Threading.Tasks.Extensions.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/Microsoft.CodeAnalysis.CSharp.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/Microsoft.CodeAnalysis.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/RoslynLicense.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/RoslynLicense.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Collections.Immutable.FSR.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Collections.Immutable.FSR.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Collections.Immutable.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Reflection.Metadata.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Reflection.Metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Reflection.Metadata.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Runtime.CompilerServices.Unsafe.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Runtime.CompilerServices.Unsafe.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Threading.Tasks.Extensions.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/Microsoft.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/Microsoft.CSharp.dll.IMPORTANT.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/Microsoft.CSharp.dll.IMPORTANT.txt.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Plugins/Roslyn/Microsoft.CSharp.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point Surface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point URP.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point URP.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Point/Point.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scenes/ExampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scenes/ExampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scripts/FunctionLibrary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scripts/FunctionLibrary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scripts/Graph.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Samples/Basic/Scripts/Graph.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/AssemblyPostProcess.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/AssemblyPostProcess/AddInternalsVisibleToForAllUserAssembliesPostProcess.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/AssemblyPostProcess/AddInternalsVisibleToForAllUserAssembliesPostProcess.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/BuilderPatternFunctionsRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/BuilderPatternFunctionsRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ConstructorRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ConstructorRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/CreateNewFieldInitMethodRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/CreateNewFieldInitMethodRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ExtensionMethodsCallingOtherExtensionMethodsInSameFileRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ExtensionMethodsCallingOtherExtensionMethodsInSameFileRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/FastScriptReloadCodeRewriterBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/FastScriptReloadCodeRewriterBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/FieldsWalker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/FieldsWalker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/HotReloadCompliantRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/HotReloadCompliantRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ManualUserDefinedScriptOverridesRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ManualUserDefinedScriptOverridesRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/NewFieldDeclaration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/NewFieldDeclaration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/NewFieldsRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/NewFieldsRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/PartialClassFinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/PartialClassFinder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/PartialTreeProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/PartialTreeProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/PartialTypeCombiner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/PartialTypeCombiner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/SyntaxTreeHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/SyntaxTreeHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/SyntaxTreeMergePartialsExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/Partials/SyntaxTreeMergePartialsExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/RecordRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/RecordRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/RedundantTypeNameQualifierRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/RedundantTypeNameQualifierRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/RoslynUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/RoslynUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ThisAssignmentRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ThisAssignmentRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ThisCallRewriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ThisCallRewriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ThisRewriterBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/CodeRewriting/ThisRewriterBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/DotnetExeCompilator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/DotnetExeCompilator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/DynamicAssemblyCompiler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/DynamicAssemblyCompiler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/DynamicCompilationBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/DynamicCompilationBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/McsExeDynamicCompilation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/McsExeDynamicCompilation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/PatchMcsArgsGeneration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/PatchMcsArgsGeneration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/ScriptGenerationOverrides.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/ScriptGenerationOverrides/ScriptGenerationOverridesManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/Compilation/ScriptGenerationOverrides/ScriptGenerationOverridesManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/CustomFileWatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/CustomFileWatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FastScriptReload.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FastScriptReload.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FastScriptReloadManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FastScriptReloadManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FastScriptReloadWelcomeScreen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FastScriptReloadWelcomeScreen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FileWatcherSetupEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/FileWatcherSetupEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/GUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/GUI/ProjectWindowReloadStatusIndicatorDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/GUI/ProjectWindowReloadStatusIndicatorDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/NewFields.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/NewFields/NewFieldsRendererDefaultEditorPatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/NewFields/NewFieldsRendererDefaultEditorPatch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/WindowsFileSystemWatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Editor/WindowsFileSystemWatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/AssemblyChangesLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/AssemblyChangesLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/AssemblyChangesLoaderResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/AssemblyChangesLoaderResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/DetourCrashHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/DetourCrashHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/FastScriptReload.Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/FastScriptReload.Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/LoggerScopedInitializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/LoggerScopedInitializer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/ProjectTypeCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/ProjectTypeCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/TemporaryNewFieldValues.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Scripts/Runtime/TemporaryNewFieldValues.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/FastScriptReload.Tests.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/FastScriptReload.Tests.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/AccessingIdentifierNamedSameAsMethodTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/AccessingIdentifierNamedSameAsMethodTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/AccessingNewFieldsAddedAtRuntimeSameNameAsStaticClassFieldTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/AccessingNewFieldsAddedAtRuntimeSameNameAsStaticClassFieldTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/CompileWithRedirectTestBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/CompileWithRedirectTestBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/MergePartialClassesTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/MergePartialClassesTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/MethodAccessingNestedEnumTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/MethodAccessingNestedEnumTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/NewFieldInitDictionariesWithLocalFunctionTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Editor/Integration/CodePatterns/NewFieldInitDictionariesWithLocalFunctionTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/FastScriptReload.Tests.Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/FastScriptReload.Tests.Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/AccessingIdentifierNamedSameAsMethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/AccessingIdentifierNamedSameAsMethod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/AccessingNewFieldsAddedAtRuntimeSameNameAsStaticClassField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/AccessingNewFieldsAddedAtRuntimeSameNameAsStaticClassField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/MethodAccessingNestedEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/MethodAccessingNestedEnum.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/NewFieldInitDictionariesWithLocalFunction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/NewFieldInitDictionariesWithLocalFunction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/TestDetourConfirmation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastScriptReload/Tests/Runtime/Integration/CodePatterns/TestDetourConfirmation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Animation/ENEMY.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Animation/ENEMY.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Animation/Knock.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/Models/ENEMY/Animation/Knock.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/Cast.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/Cast.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/LeftWalk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/LeftWalk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/PlayerModel.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/PlayerModel.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/RightWalk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/RightWalk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/Walking.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Models/Player/Walking.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Chase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Chase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Check.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Check.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/FSM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/FSM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Knock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Knock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Patrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Patrol.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Camera/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Camera/CameraController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/ViewSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/ViewSensor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +279,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_AIInStels/_Scripts/GameSettings/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Check.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.r3/Runtime/UnityProviderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_AIInStels/_Scripts/DI/GameEntitiesInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/EnemyAnimator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -78,16 +300,18 @@
         <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/TestQuanernion.cs" />
         <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/FSM_MB.cs" />
         <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/State.cs" />
-        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Patrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/ViewSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/GameSettings/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Idle.cs" />
-        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Camera/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Chase.cs" />
-        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Check.cs" />
-        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/FSM.cs" />
         <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/EnemyAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Camera/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/PlayerAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/FSM.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/ViewSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Patrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Chase.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Knock.cs" />
+        <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Check.cs" />
         <option value="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/Enemy.cs" />
       </list>
     </option>
@@ -100,6 +324,7 @@
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -128,10 +353,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1984">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1984" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -152,7 +377,8 @@
       <workItem from="1745083651670" duration="9200000" />
       <workItem from="1745693406858" duration="14045000" />
       <workItem from="1745832798060" duration="742000" />
-      <workItem from="1745865156382" duration="4670000" />
+      <workItem from="1745865156382" duration="4985000" />
+      <workItem from="1746263429025" duration="10810000" />
     </task>
     <servers />
   </component>
@@ -190,17 +416,36 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1745870261239" />
-    <state x="419" y="145" width="726" height="592" key="find.popup" timestamp="1745874512469">
+    <state x="419" y="145" width="726" height="592" key="find.popup" timestamp="1746282577417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="419" y="145" width="726" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1745874512469" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1745093980277">
+    <state x="419" y="145" width="726" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1746282577417" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1746283232081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1745093980277" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1743793148590">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1746283232081" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1746282346946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1743793148590" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1746282346946" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/Enemy.cs</url>
+          <line>106</line>
+          <properties documentPath="D:\Programming\UNITY\Unity Projects\AI_In_Stels_FinalWork\AIinStelsFinalWork\Assets\_AIInStels\_Scripts\Enemy\Enemy.cs" initialLine="106">
+            <startOffsets>
+              <option value="3012" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3035" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

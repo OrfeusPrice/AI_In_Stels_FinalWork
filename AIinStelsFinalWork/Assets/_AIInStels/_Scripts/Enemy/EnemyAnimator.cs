@@ -8,6 +8,7 @@ public class EnemyAnimator
     private string _isChase = "isChase";
     private string _isKnocked = "isKnocked";
     private string _isCheck = "isCheck";
+    private string _isIdle = "isIdle";
 
     public EnemyAnimator(Animator animator)
     {
@@ -16,6 +17,11 @@ public class EnemyAnimator
 
     public void SetAnimation(State state)
     {
+        if (!(state is Idle))
+        {
+            _animator.SetBool(_isIdle, false);
+        }
+
         if (state is Chase)
         {
             _animator.SetBool(_isChase, true);
