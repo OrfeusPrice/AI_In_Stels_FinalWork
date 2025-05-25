@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using VLB;
 
 public class Patrol : State
 {
@@ -30,7 +31,7 @@ public class Patrol : State
         _agent.speed = 2;
         _agent.angularSpeed = 180;
         _enemy.Light.color = new Color(0.6f, 1.6f, 1.0f);
-        _enemy.Light.GetComponent<Light>().intensity = 15f;
+        _enemy.Light.GetComponent<VolumetricLightBeam>().Reset(); 
     }
 
     public override void Exit()

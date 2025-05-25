@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using VLB;
 
 public class Knock : State
 {
@@ -19,7 +20,8 @@ public class Knock : State
         _agent.destination = _agent.transform.position;
         _agent.gameObject.layer = LayerMask.NameToLayer("Knocked");
         
-        _enemy.Light.color = new Color(1, 0.5f, 0.3f);
+        _enemy.Light.color = new Color(0.7f, 0.5f, 0.3f);
+        _enemy.Light.GetComponent<VolumetricLightBeam>().Reset(); 
     }
 
     public override void Exit()

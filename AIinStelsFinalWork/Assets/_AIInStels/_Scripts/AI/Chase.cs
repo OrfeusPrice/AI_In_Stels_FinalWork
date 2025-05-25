@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AI;
+using VLB;
 
 public class Chase : State
 {
@@ -28,8 +29,8 @@ public class Chase : State
         _agent.destination = _target.position;
         _agent.speed = 10;
         _agent.angularSpeed = 360;
-        _enemy.Light.GetComponent<Light>().color = Color.red;
-        _enemy.Light.GetComponent<Light>().intensity = 20f;
+        _enemy.Light.color = Color.red;
+        _enemy.Light.GetComponent<VolumetricLightBeam>().Reset(); 
         
         _enemy.CheckOnChasing().Forget();
     }

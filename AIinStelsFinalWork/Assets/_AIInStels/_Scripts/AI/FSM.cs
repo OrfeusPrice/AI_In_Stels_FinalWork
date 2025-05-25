@@ -39,10 +39,9 @@ public class FSM
         SetState<Idle>();
     }
 
-    public void AddState(State state)
-    {
+    public void AddState(State state) =>
         states.Add(state.GetType(), state);
-    }
+    
 
     public void SetState<T>() where T : State
     {

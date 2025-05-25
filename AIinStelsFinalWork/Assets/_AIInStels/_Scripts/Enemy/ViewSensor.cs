@@ -52,26 +52,21 @@ public class ViewSensor
         return false;
     }
 
-    public bool IsPlayerInView()
-    {
-        if (_target != null)
-        {
-            Vector3 target_v = _target.position - _enemyEye.position;
-
-            float realAngle = Vector3.Angle(_enemyEye.forward, target_v);
-            RaycastHit hit;
-            if (Physics.Raycast(_enemyEye.transform.position, target_v, out hit,
-                _viewDistance))
-            {
-                if (realAngle < _viewAngle / 2f &&
-                    Vector3.Distance(_enemyEye.position, _target.position) <= _viewDistance &&
-                    hit.transform == _target.transform)
-                    return true;
-            }
-        }
-
-        return false;
-    }
+public bool IsTargetInView()
+{
+  if (_target != null)
+  {
+    Vector3 target_v = _target.position - _enemyEye.position;
+    float realAngle = Vector3.Angle(_enemyEye.forward, target_v);
+    RaycastHit hit;
+    if (Physics.Raycast(_enemyEye.transform.position,
+          target_v, out hit, _viewDistance))
+      return (realAngle < _viewAngle / 2f &&
+              Vector3.Distance(_enemyEye.position, _target.position) <=
+              _viewDistance && hit.transform == _target.transform);
+  }
+  return false;
+}
 
     public void DrawViewState()
     {

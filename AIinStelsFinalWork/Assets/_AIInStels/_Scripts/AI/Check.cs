@@ -2,6 +2,7 @@ using Cysharp.Threading.Tasks;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using VLB;
 
 public class Check : State
 {
@@ -19,7 +20,8 @@ public class Check : State
     {
         Debug.Log("Check [ENTER]");
 
-        _enemy.Light.GetComponent<Light>().color = Color.yellow;
+        _enemy.Light.color = Color.yellow;
+        _enemy.Light.GetComponent<VolumetricLightBeam>().Reset(); 
         BeginCheck().Forget();
     }
 

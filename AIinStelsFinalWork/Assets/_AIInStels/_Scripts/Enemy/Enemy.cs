@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using VLB;
 using Zenject;
 using Unit = R3.Unit;
 
@@ -40,11 +41,14 @@ public partial class Enemy : MonoBehaviour
         set => _isTargetDetected.Value = value;
     }
 
-    [Inject]
-    public void Construct(Player player)
-    {
-        _viewSensor = new ViewSensor(player.transform, _viewSensorTransform, 90, 10);
-    }
+[Inject]
+public void Construct(Player player)
+{
+    _viewSensor = new ViewSensor(
+        player.transform, 
+        _viewSensorTransform, 
+        90, 10);
+}
 
     private void OnDisable()
     {
@@ -96,7 +100,7 @@ public partial class Enemy : MonoBehaviour
 
     public void TryDetectPlayer()
     {
-        if (_viewSensor.IsPlayerInView() && !TargetDetected ||
+        if (_viewSensor.IsTargetInView() && !TargetDetected ||
             Physics.OverlapSphere(this.transform.position + Vector3.up, 2, LayerMask.GetMask("Player")).Length == 1)
         {
             TargetDetected = true;
@@ -138,7 +142,7 @@ public partial class Enemy : MonoBehaviour
     public bool IsDetectPlayerWhileChase()
     {
         if (_viewSensor != null && this != null)
-            return _viewSensor.IsPlayerInView() ||
+            return _viewSensor.IsTargetInView() ||
                    Physics.OverlapSphere(this.transform.position, 2, LayerMask.GetMask("Player")).Length == 1;
         return false;
     }

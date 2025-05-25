@@ -23,12 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ea623a5-ab73-42f5-99cd-f187920bba98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/contentModel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AIinStelsFinalWork/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Material/Plane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Material/Plane.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Material/Wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Material/Wall.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/FSM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/FSM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Knock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/Knock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/AI/State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/DI/GameEntitiesInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/DI/GameEntitiesInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/ViewSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_AIInStels/_Scripts/Enemy/ViewSensor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,19 +91,27 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2vEB9LFH4E1MvE7jITdHRZkSCuO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34678522" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29685363" />
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.25f1\Editor\Unity.exe" />
@@ -100,6 +119,9 @@
       <option name="WORKING_DIRECTORY" value="C:\Projects\AI_In_Stels_FinalWork\AIinStelsFinalWork" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -108,24 +130,37 @@
       <option name="WORKING_DIRECTORY" value="C:\Projects\AI_In_Stels_FinalWork\AIinStelsFinalWork" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
       </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1984">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="1984" />
-      <option name="selectedOptions">
-        <set />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
       </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -145,6 +180,8 @@
       <workItem from="1745832798060" duration="742000" />
       <workItem from="1745865156382" duration="4985000" />
       <workItem from="1746263429025" duration="16616000" />
+      <workItem from="1747489866960" duration="12941000" />
+      <workItem from="1748211135492" duration="34000" />
     </task>
     <servers />
   </component>
@@ -153,7 +190,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
-    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
@@ -168,99 +204,26 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="467" height="464" key="DebuggerActiveHint" timestamp="1746284868466">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="467" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1746284868466" />
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1746421572715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1746421572715" />
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1746421572716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1746421572716" />
-    <state x="479" y="91" key="RiderGenerateDialog" timestamp="1745780020968">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="479" y="91" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1745780020968" />
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1745870261239">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1745870261239" />
-    <state x="419" y="145" width="755" height="592" key="find.popup" timestamp="1746287317756">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="419" y="145" width="755" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1746287317756" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1746283232081">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1746283232081" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1746282346946">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1746282346946" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
